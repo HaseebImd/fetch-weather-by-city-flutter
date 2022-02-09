@@ -16,7 +16,7 @@ class LoadingData extends StatefulWidget {
 class _LoadingDataState extends State<LoadingData> {
   void getData() async {
     String cityName = widget.city;
-    String apiKey = "e49deeade2ce7f943f1127a51bfa484c"; // Api Key
+    String apiKey = "PUT YOUR API KEY HERE"; // Api Key
     String urlString =
         "http://api.openweathermap.org/data/2.5/weather?q=$cityName&appid=$apiKey";
     Uri url = Uri.parse(urlString);
